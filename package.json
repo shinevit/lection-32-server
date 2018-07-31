@@ -2,10 +2,18 @@
   "name": "practice-32-server",
   "version": "1.0.0",
   "description": "Rest server for it school",
-  "main": "app.js",
+  "main": "./src/app.js",
   "scripts": {
+    "dev": "node ./node_modules/nodemon/bin/nodemon.js .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "config": "^2.0.1",
+    "express": "^4.16.3"
+  }
 }
