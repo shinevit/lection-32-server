@@ -1,5 +1,5 @@
 
-var data = [{id: 1, name: "student"}];
+var data = [{id: 1, name: "teacher"}];
 
 function getList(req, res){
     res.json(data);
